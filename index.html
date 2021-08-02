@@ -1,30 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
     <title>Best Buy Clone</title>
 </head>
+
 <body>
 
     <header>
         <div class="header-container">
-            <div class="logo"><img src="https://logotyp.us/files/png/best-buy.png" alt=""></div>
-            <div class="menu">Menu</div>
-            <div class="searchbar">search for..</div>
+
+            <div class="logo-container">
+                <div class="logo"><img src="https://logotyp.us/files/png/best-buy.png" alt=""></div>
+                <div class="menu"><i class="fas fa-bars"></i> Menu</div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search Best Buy">
+                    <button> <i class="fa fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="end-container">
+                <div class="location-selector" onclick="myFunction()"><i class="fas fa-store" ></i>North Avenue</div>
+                <div class="shopping-cart"><i class="fas fa-shopping-cart"></i><a href="">Cart</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="pop-up-window">
+            <div class="location-window" id="myLinks">
+                <div class="horizontal"></div>
+
+                <p style="font-size: 15px;"><b>North Avenue</b></p>
+                <p style="color: green"><b>Open until 8 pm</b></p>
+                <p class="none">1000 W North Ave <br> Chicago, IL 60642</p>
+                <p class="store-detail"><a href="#">Store details</a> </p>
+                <button><a href="#">Find Another Store</a></button>
 
             </div>
-        <div class="header-container">
-            <div class="location-selector">Template</div>
-            <div class="shopping-cart"><i class="fas fa-shopping-cart"></i></div>
+        </div>
+
+        <nav>
+            <ul>
+                <div class="left-nav">
+                    <li><a href="#">Back to School</a></li>
+                    <li><a href="#">Top Deals</a></li>
+                    <li><a href="#">Deal of the Day</a></li>
+                    <li><a href="#">Health & Wellness</a></li>
+                    <li><a href="#">Credit Cards</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Gift Ideas</a></li>
+                    <li><a href="#">Best Buy Business</a></li>
+                </div>
+
+                <div class="right-nav">
+                    <li><a href="#" onclick="myFunction2()"><i class="far fa-user" ></i>Account<i class="fas fa-chevron-down" ></i></a></li>
+                    <li><a href="#">Recently Viewed<i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Order Status<i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Saved Items<i class="fas fa-chevron-down"></i></a></li>
+                </div>
+
+            </ul>
+        </nav>
+
+        <div class="account-tab" id="myLinks2">
+            <div class="user-info">
+                <p class="user-text">
+                    Becoming a My Best Buy® member comes with
+                    easy order tracking, rewards, offers and more.
+                </p>
+
+                <a href="#" class="btn">Sign in</a>
+                <a href="#" class="create-btn">Create Account</a>
+            </div>
+            <div class="tab1"><a href="#">Account</a></div>
+            <div class="tab1"><a href="#">Orders & Purchases</a></div>
+            <div class="tab1"><a href="#">Your Products</a></div>
+            <div class="tab1"><a href="#">Payment Methods</a></div>
+            <div class="tab1"><a href="#">Protection PLans & Subscriptions</a></div>
+            <div class="tab1"><a href="#">Digital Library</a></div>
+            <div class="tab1"><a href="#">Total Tech Support</a></div>
+            <div class="tab1"><a href="#">Free Home Consultation</a></div>
+            <div class="tab1"><a href="#">Member Offers</a></div>
+            <div class="tab1"><a href="#">Account Settings</a></div>
+            <div class="tab1 closeTag"><a href="#">X Close</a></div>
         </div>
 
 
-   
+        
+
     </header>
 
+    <script src="/app.js" async defer></script>
+
 </body>
+
 </html>

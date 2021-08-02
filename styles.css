@@ -1,21 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;}
+
+header{
+    background-color: blue;
 }
 
-
-
-
 .header-container{
+    color: white;
+    width: 1800px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+
 }
 
 .logo img{
-    width: 68px;
-    height: 40x;
+    width: 130px;
+    height: 40x;    
+    color: white;
+    
+}
+
+.menu, .searchbar{
+    margin: 30px;
+
+
+}
+
+#myLinks{
+    display: none;
+}
+
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    border: none;
+    color: blue;
+    outline: none;
+}
+
+
+.searchbar input[type=text]{
+    width: 700px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    
+
+
+}
+
+
+.fa{
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+
+
+.shopping-cart{
+    margin-left: 4rem;
+    font-size: 20px;
+
+
+
+}
+
+
+.shopping-cart a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.location-selector{
+    font-size: 20px;
+}
+
+.location-selector .fas{
+    margin-right: 0.5rem;
+}
+.end-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart .fas{
+    margin-right: 0.5rem;
+    font-size: 20px;
+}
+
+.menu .fas{
+    font-size: 30px;
+
+}
+
+
+/* Navbar*/
+
+nav{
+    width: 1800px;
+
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 14px;
+    
+}
+
+ nav ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-bottom: 0.5rem;
+
+ }
+
+ .left-nav{
+    display: flex;
+    margin-left: 4rem;
+}
+
+ .right-nav{
+    display: flex;
+
+}
+
+
+li{
+    list-style: none;
+}
+
+
+nav .left-nav a:hover{
+    text-decoration: underline;
+}
+
+.right-nav .fas{
+    margin-left: 5px;
+}
+
+
+.right-nav .far{
+    margin-right: 5px;
+}
+
+
+/*Location*/
+.location-window{
+    border: 1px solid transparent;
+    border-top-width: 10px;
+    border-top-color: rgba(108, 253, 89, 0.5);
+    background-color: white;
+    color: black;
+    position:absolute;
+    padding: 0.5rem;
+    margin-right: 19.5rem;
+    margin-top: 9.5rem;
+    width: 250px;
+    line-height: 2.5;
+    box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+    font-size: 14px;
+
+    
+
+} 
+
+
+#myLinks{
+    display: none;
+
+}
+
+.pop-up-window{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    
+}
+
+.none{
+    line-height: normal;
+}
+
+.store-detail a{
+    color: #0457c8;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.store-detail a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+.location-window button a{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+
+
+
+}
+
+
+
+.location-window button a:hover{
+    color: white;
+    text-decoration: none;
+    
+
+
+}
+
+.location-window button{
+    border: 1px solid blue;
+    border-radius: 3px;
+    width: 225px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+
+
+.location-window button:hover{
+    background: blue;
+    
+}
+
+
+/* Account Tab */
+.account-tab{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 70rem;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+
+
+    
+
+}
+
+.account-tab .tab1{
+    margin: 0.9rem;
+    border-bottom: 0.5px solid #f4f6f9;
+    border-color: #c5cbd5;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.account-tab .tab1 a{
+    text-decoration: none;
+    color: blue
+}
+
+
+
+/* guest user */
+.user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+
+.user-info .user-text{
+    text-align: center;
+    font-size: 13px;
+    margin: 1rem;
+}
+
+
+.user-info .btn,.create-btn{
+    background: blue;
+    color: white;
+    border:1px solid black;
+    padding: 0 24px;
+    width: 230px;
+    font-size: 13px;
+    margin: 0.5rem;
+    outline: none;
+    text-align: center;
+
+    padding: 0.4rem;
+}
+
+.user-info .btn, .create-btn a{
+    text-decoration: none;
+
+}
+
+
+.closeTag{
+    font-weight: bold;
+}
+
+
+
+
+.user-info a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-info a:hover{
+    background-color: darkblue;
+    padding: 0.3rem;
+
+    
+}
+
+#myLinks2{
+    display: none;
+}
+
+
+.location-selector:hover{
+    cursor: pointer;
 }
