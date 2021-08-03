@@ -174,9 +174,7 @@ nav .left-nav a:hover{
 
 /*Location*/
 .location-window{
-    border: 1px solid transparent;
-    border-top-width: 10px;
-    border-top-color: rgba(108, 253, 89, 0.5);
+
     background-color: white;
     color: black;
     position:absolute;
@@ -191,6 +189,17 @@ nav .left-nav a:hover{
     
 
 } 
+
+
+.description{
+
+    text-align: center;
+    margin-left: 1rem;
+
+    
+    
+
+}
 
 
 #myLinks{
@@ -263,6 +272,9 @@ nav .left-nav a:hover{
 }
 
 
+
+
+
 /* Account Tab */
 .account-tab{
     display: flex;
@@ -278,15 +290,59 @@ nav .left-nav a:hover{
 
 }
 
+.account-tab .user-info{
+    width: 400px;
+}
+
+
+
+.horizontal{
+    border-top: 1px solid grey;
+    box-shadow: 2px 2px 8px grey;
+
+    
+
+}
+
+.account-tab .none-1 a{
+    border:  none;
+
+}
+
+.together-1{
+    border-bottom: 1px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+
+
 .account-tab .tab1{
-    margin: 0.9rem;
-    border-bottom: 0.5px solid #f4f6f9;
+    margin: 0.9rem;    
     border-color: #c5cbd5;
     width: 300px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
+}
+
+.together{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 370px;
+
+    
+}
+
+.together span{
+    font-size: 10px;
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -319,13 +375,14 @@ nav .left-nav a:hover{
     background: blue;
     color: white;
     border:1px solid black;
+    border-radius:10px;
     padding: 0 24px;
-    width: 230px;
+    width: 260px;
     font-size: 13px;
     margin: 0.5rem;
+    margin-bottom: 1rem;
     outline: none;
     text-align: center;
-
     padding: 0.4rem;
 }
 
@@ -337,9 +394,20 @@ nav .left-nav a:hover{
 
 .closeTag{
     font-weight: bold;
+    
 }
 
 
+.closeTagxd a{
+    margin-left: 0.5rem;
+}
+
+.together {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem;
+}
 
 
 .user-info a{
@@ -354,6 +422,11 @@ nav .left-nav a:hover{
     
 }
 
+
+.tab1 a:hover{
+    color:dodgerblue;
+}
+
 #myLinks2{
     display: none;
 }
@@ -362,3 +435,57 @@ nav .left-nav a:hover{
 .location-selector:hover{
     cursor: pointer;
 }
+
+
+
+/* Recently Viewed Tab */
+.item-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 152px;
+} 
+
+.item-grid img{
+     width: 152px;
+    
+}
+
+
+.recently{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 1030px;
+    margin: auto;
+    margin-right:14rem;
+    padding: 3rem;
+
+}
+
+.item-grid a{
+    text-decoration: none;
+    font-size: 13px;
+    width: 100%;
+    
+}
+
+.checked {
+    color: orange;
+  }
+
+
+  .recently .btn-item{
+      border: 1px solid black;
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      
+  }
+
+
+  h2{
+      text-align: center;
+  }
