@@ -354,8 +354,6 @@ nav .left-nav a:hover {
   width: 152px;
 }
 
-
-
 .recently {
   display: flex;
   justify-content: space-between;
@@ -367,7 +365,6 @@ nav .left-nav a:hover {
   padding: 3rem;
   box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
   border-bottom: 1px solid black;
-
 }
 
 .item-grid a {
@@ -383,7 +380,7 @@ nav .left-nav a:hover {
 .recently .btn-item {
   border: 1px solid black;
   width: 100%;
-  padding: 5px; 
+  padding: 5px;
   text-align: center;
 }
 
@@ -394,41 +391,30 @@ nav .left-nav a:hover {
 
 .h2-con {
   background-color: white;
-  width:1030px;
+  width: 1030px;
   margin-left: 41.6rem;
   padding: 1rem;
-  
-
 }
 
-.h2-con h2 a{ 
+.h2-con h2 a {
   text-align: center;
 }
-.h2-con a{
+.h2-con a {
   text-decoration: none;
   color: blue;
   font-size: 13px;
   text-align: center;
-  
 }
 
-
-.fa-angle-double-right{
+.fa-angle-double-right {
   margin-left: 2rem;
   margin-right: 0.5rem;
-  
 }
 
-
-
-section{
+section {
   display: flex;
   justify-content: start;
-  
-
-
 }
-
 
 #myLinks3 {
   display: none;
@@ -442,14 +428,12 @@ section{
   display: none;
 }
 
-
-.recent-container{
+.recent-container {
   background: white;
 }
 
-
 /* Order status */
-.order-status{
+.order-status {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -458,35 +442,30 @@ section{
   width: 1030px;
   padding: 1rem;
   margin-left: 33.5rem;
-
 }
 
-.order-container{
+.order-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:2rem;
-  
-  
+  padding: 2rem;
 }
 
-.order-content{
+.order-content {
   line-height: 1.5;
   width: 435px;
-
 }
 
-.order-status h2{
+.order-status h2 {
   border-bottom: 1px solid black;
-
 }
 
-.fa-box{
+.fa-box {
   padding-bottom: 1rem;
 }
 
-.order-btn{
+.order-btn {
   border: 1px solid black;
   background-color: blue;
   width: 435px;
@@ -494,114 +473,201 @@ section{
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 4px;
-
-
 }
 
-
-
-.order-btn a{
+.order-btn a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-
 }
 
-.order-btn:hover{ 
+.order-btn:hover {
   background-color: darkblue;
-
 }
 
-
-.order-content p{
+.order-content p {
   font-size: 12px;
 }
 
-.order-content h3{
+.order-content h3 {
   font-size: 35px;
 }
 
-.order-status-title{
+.order-status-title {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-left: 1rem;
 }
 
-.title-link-separator{
+.hr {
+  border-bottom: 1px solid grey;
+  margin-top: 1rem;
+}
+
+.title-link-separator {
   height: 29px;
   width: 1px;
   background-color: #c5cbd5;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-
 }
 
-.order-status-title a{
+.order-status-title a {
   text-decoration: none;
   color: blue;
 }
 
-.saved-items{
+.saved-items {
   border: none;
   background-color: White;
   box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
   width: 1030px;
   padding: 1rem;
   margin-left: 41rem;
-
 }
 
-.saved-items h2{
+.saved-items h2 {
   border: none;
 }
 
-
-.saved-status-grid-container{
+.saved-status-grid-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 1rem;
 }
 
-
-.saved-status-grid-container .item-grid{
-
+.saved-status-grid-container .item-grid {
   margin-left: 1rem;
-
 }
 
-
-.saved-status-grid-container .btn-item{
+.saved-status-grid-container .btn-item {
   border: 1px solid black;
   width: 150px;
   text-align: center;
   border-radius: 5px;
   padding: 0.4rem;
   background-color: blue;
-  
-
 }
 
-
-#relate-items{
+#relate-items {
   color: blue;
 }
 
-
-
-
-.saved-status-grid-container .btn-item a{
-  color:white;
+.saved-status-grid-container .btn-item a {
+  color: white;
 }
 
-#relate-items a:hover{
+#relate-items a:hover {
   text-decoration: underline;
 }
 
 
-.saved-status-grid-container .stars .fa{
 
-  font-size: 10px;
+
+
+
+
+
+
+
+
+
+/*Homepage*/
+.big-container {
+  display: flex;
+  justify-content: space-around;  
+  color: white;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  
+
   
 }
+
+.minx-container {
+  width: 850px;
+  height: 700px;
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+}
+
+.minx-container img{
+  width:650px;
+  height:550px;
+  border-radius: 5px;
+  
+
+  
+
+}
+
+.mini-container {
+  background-color: white;
+  height: 340px;
+  width: 450px;
+  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+
+  
+
+}
+
+.miniyx-container {
+  width: 450px;
+  height: 340px;
+  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+  margin-bottom: 1.5rem;
+  display: flex;
+  
+
+  
+}
+
+
+.miny-container{
+  margin-right: 9.1rem;
+  
+
+}
+
+.minx-container h4{
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.btn-class{
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: blue;
+  color: white;
+
+
+
+}
+
+.btn-class:hover{
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.mini-container .deals{
+  color: blue;
+  display: flex;
+  padding-top: 0.5rem;
+  
+}
+
+
+.mini-container .deals a{
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+
+

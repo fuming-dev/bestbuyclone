@@ -1,4 +1,7 @@
-  function myFunction2() {
+ 
+ 
+ 
+ function myFunction2() {
     var x = document.getElementById("myLinks2");
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -32,13 +35,17 @@
 
 
 
-function myFunction5() {
+function myFunction5() {  
   var x = document.getElementById("myLinks5");
   if (x.style.display === "block") {  
     x.style.display = "none";
     
 
-  } else {
+  } 
+  
+  
+  
+  else {
     x.style.display = "block";
   }
 }
