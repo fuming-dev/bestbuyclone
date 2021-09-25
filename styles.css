@@ -345,7 +345,6 @@ nav .left-nav a:hover {
 .item-grid {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-direction: column;
   width: 152px;
 }
@@ -567,107 +566,364 @@ section {
 
 
 
+/*Labor Day Sale */
 
-
-
-
-
-
-
-/*Homepage*/
-.big-container {
+.main-container{
   display: flex;
-  justify-content: space-around;  
-  color: white;
-  margin-left: 3rem;
-  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color:darkblue; 
+  flex-direction: column;
   
+
+}
+
+.sales-title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 1200px;
+  margin-top: 1rem;
+}
+
+.sales-title .btn  a{
+  border: 1px solid white;
+  background-color: rgb(38, 0, 255);
+  
+}
+
+.sales-title .btn  a:hover{
+  color: blue;
+  background-color:white;
+  
+}
+
+.sales-title h2{
+  color: yellow;
+
+}
+
+.paragr{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sales-title h2{
+  font-size: 50px;
+
+}
+.sales-title a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+
+
+}
+
+
+.grid-container{
+  
+  grid-template-columns: auto auto auto auto auto auto;
+  display: grid;
+  justify-content: center;
+  width: 50%;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.grid-item {
+  background-color:#fff;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  border-color: skyblue;
+  border-width: 4px;
+
 
   
 }
 
-.minx-container {
-  width: 850px;
-  height: 700px;
+.grid-item img{
+  width:130px;
+  padding: 5px;
+  
+
+}
+
+
+.grid-item-link a{
+  text-decoration: none;
+  color: yellow;
+  font-weight: bolder;
+
+  
+}
+
+.grid-item-link a:hover{
+  text-decoration: underline;
+}
+
+.grid-item-link{
+  margin-bottom: 3rem;
+}
+
+.main-container span{
+  text-align: none;
+  color: white;
+}
+
+.daily-deals{
+  width: 60%;
+  margin-top: 1rem;
+}
+
+
+
+/*Widgets*/
+
+.widget-wapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.widget-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-col img{
+  width: 100px;
+}
+
+.widget-col a{
+  text-align: center;
   color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+
+.widget-col a:hover{
+  color: darkblue;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.widget-wapper .widget-link{
+  margin-right: 1rem;
+}
+
+
+
+
+/*item-feature-box */
+
+.item-feature-box{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
+  background-color:black;
+  width: 1400px;
+  margin:auto;
+  border-radius: 1rem;
 }
 
-.minx-container img{
-  width:650px;
-  height:550px;
-  border-radius: 5px;
-  
-
-  
-
+.item-feature-box img{
+  width: 50%;  
 }
 
-.mini-container {
-  background-color: white;
-  height: 340px;
-  width: 450px;
-  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
-
-  
-
-}
-
-.miniyx-container {
-  width: 450px;
-  height: 340px;
-  box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
-  margin-bottom: 1.5rem;
-  display: flex;
-  
-
-  
-}
-
-
-.miny-container{
-  margin-right: 9.1rem;
-  
-
-}
-
-.minx-container h4{
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.btn-class{
-  border: 1px solid;
-  border-radius: 5px;
-  text-align: center;
-  padding: 0.5rem;
-  background-color: blue;
+.item-feature-box .fas{
+  font-size: 52px;
   color: white;
+}
 
-
+.item-feature-item{
+  padding: 1rem;
+  margin-left: 1rem;
+  border:1px solid white;
+  background-color: white;
+  box-shadow: 1px solid black;
+  border-radius: 12px;
+  
 
 }
 
-.btn-class:hover{
-  background-color: darkblue;
-  cursor: pointer;
+
+.item-feature-title{
+  color: white;
+}
+.item-feature-item .descrip a {
+  text-decoration: none;
+  word-break: break-word;
 }
 
-.mini-container .deals{
-  color: blue;
+.item-feature-container{
   display: flex;
-  padding-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+.item-feature-title{
+  padding: 2rem;
   
 }
 
+.item-feature-title h2{
+  font-size: 40px;
+}
 
-.mini-container .deals a{
+.item-feature-title a{
+  color: yellow;
+  font-weight: bold;
   text-decoration: none;
-  margin-left: 1.5rem;
+}
+
+.item-feature-item .stars .fa{
+  font-size: 12px;
+}
+
+.item-feature-box .item-next{
+  margin-left: 1rem;
 }
 
 
+/*Featured Items */
+
+.featured-offers{
+  display: grid;
+  margin: auto;
+  margin-top: 1rem;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  width: 1400px;
+
+}
+
+.featured-offers-col{
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-width: 0.5rem;
+  border-color: blue;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.featured-offers-col img{
+  width: 100%;
+}
+
+.featured-offers-col a{
+  text-decoration: none;
+}
+
+.featured-offers-col .text-content{
+  text-align: start;
+}
+
+.featured-offers-col .text-content .descriptions, .disclaimer{
+  font-size: 13px;
+
+}
+
+.border-top{
+  border-top: 1px solid black;
+  
+}
+
+.two-twin{
+  display: flex;
+  justify-content: space-between;
+  width: 1420px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.two-twin-col{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding: 2rem;
+  margin-right:10px;
+  margin-left:10px;
+
+  border: 1px solid black;
+  width: 100%;
+  background-color: #f0f2f4;
+
+}
+
+.two-twin-col a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.two-twin-col a:hover{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+
+.two-twin-col p{
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 1rem;  
+
+
+}
+
+.two-twin-col img{
+  border-radius: 50%;
+  width: 150px;
+
+}
+
+/* deal-clear-help */
+.deal-clear-help{
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin:auto;
+  margin-top: 1rem;
+}
+
+.deal-clear-help img{
+  width: 100%;
+
+}
+
+.deal-of-the-day, .clearance, .card-help{
+  border: 1px solid grey;
+  width: 450px;
+  padding: 1rem;
+  box-shadow: 1px solid grey;
+
+}
+
+.deal-of-the-day, .clearance, .card-help, a{
+  text-decoration: none;
+  color: blue;
+}
+
+.deal-clear-help p{
+  color:black;
+  font-size: 12px;
+  margin-top: 1rem;
+}
