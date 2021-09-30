@@ -206,7 +206,7 @@ nav .left-nav a:hover {
 }
 
 .location-window button:hover {
-  background: blue;
+  background: blue; 
 }
 
 /* Account Tab */
@@ -217,6 +217,7 @@ nav .left-nav a:hover {
   align-items: center;
   flex-direction: column;
   position: absolute;
+  background-color: white;
   box-shadow: 2px 2px 8px rgba(189, 148, 255, 0.5);
 }
 
@@ -391,7 +392,7 @@ nav .left-nav a:hover {
 .h2-con {
   background-color: white;
   width: 1030px;
-  margin-left: 41.6rem;
+  margin-left: 29.8rem;
   padding: 1rem;
 }
 
@@ -428,7 +429,7 @@ section {
 }
 
 .recent-container {
-  background: white;
+  background: blue;
 }
 
 /* Order status */
@@ -938,6 +939,7 @@ section {
   align-items: center;
   background-color: blue;
   color: yellow;
+  
 }
 
 .form-container{
@@ -945,6 +947,33 @@ section {
 
 }
 
+.footer-logo .fab{
+  font-size: 32px;
+  
+  
+  
+
+}
+
+
+footer{
+  margin-top: 2rem;
+}
+
+.footer-logo
+{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+
+
+.form-container #btn{
+  background-color:yellow;
+}
 
 .form-container #email{
   padding: 12px;
@@ -958,7 +987,7 @@ section {
   margin-left: 1rem;
   border: 1px solid black;
   outline: none;
-  background-color: yellow;
+  background-color: white;
   color: black;
   font-weight: bolder;
 
@@ -992,7 +1021,7 @@ section {
 .footer-bottom{
   display: flex;
   justify-content: space-around;
-  width: 1400px;
+  width: 1450px;
   margin: auto;
   margin-top: 1rem;
 
@@ -1024,7 +1053,7 @@ li, a{
 
 
 .footer-divider{
-  width: 85%;
+  width: 1400px;
   margin: auto;
   border-top: 1px solid grey;
 
@@ -1036,11 +1065,17 @@ li, a{
 .footer-bottom-bot {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 1400px;
   margin:auto;
 
 
 }
+
+
+.footer-bottom-bot a:hover{
+  text-decoration: underline;
+}
+
 
 .footer-bottom-bot-col{
   font-size: 13px;
@@ -1049,23 +1084,40 @@ li, a{
 }
 
 .footer-bottom-bot-icons{
-  width: 85%;
+  width: 1400px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   margin: auto;
+
   
 }
+
+.footer-bot-border{
+  border-left: 1px solid;
+}
+
 
 .footer-bottom-bot-icons .icons{
   margin-right:10px;
   margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.2rem;
+  
+}
+
+.footer-bottom-bot-icons .fab{
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
   
 }
 
 
 .footer-bottom-bot-icons a{
   color: #2196F3;
-  margin-left:10px;
   font-size: 12px;
 
 
@@ -1074,7 +1126,8 @@ li, a{
 .copyright{
   margin: auto;
   font-size: 12px;
-  width: 85%;
+  width: 1400px;
   margin-top: 12px;
 
 }
+
