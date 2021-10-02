@@ -64,4 +64,21 @@ function myFunction5() {
 
 
 
+/*Menu Hamburger */
+
+function myHamburger(){
+
+  var x = document.getElementById("myHam");
+  if (x.style.display === "block") {  
+    x.style.display = "none";
+    
+
+
+
+  } 
+
+  else {
+    x.style.display = "block";
+  }
+}
 
